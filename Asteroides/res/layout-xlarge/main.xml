@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    style="@style/AppTheme"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="30dip"
+    tools:context=".Asteroides" >
+
+    <TextView
+        android:id="@+id/titulo_main"
+        style="@style/TextoAsteroides"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tituloAplicacion" />
+
+    <Button
+        android:id="@+id/Button01"
+        style="@style/TextoAsteroides.Botones"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:text="@string/Arrancar" />
+
+    <Button
+        android:id="@+id/Button02"
+        style="@style/TextoAsteroides.Botones"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:text="@string/Configurar" />
+
+    <Button
+        android:id="@+id/Button03"
+        style="@style/TextoAsteroides.Botones"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:text="@string/Acercade" />
+
+    <Button
+        android:id="@+id/Button04"
+        style="@style/TextoAsteroides.Botones"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:text="@string/Salir" />
+
+</LinearLayout>
