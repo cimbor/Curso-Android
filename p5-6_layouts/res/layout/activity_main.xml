@@ -1,0 +1,170 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxHeight="75dip"
+                android:maxWidth="75dip"
+                android:minHeight="75dip"
+                android:minWidth="75dip"
+                android:text="@string/uno" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxHeight="75dip"
+                android:maxWidth="75dip"
+                android:minHeight="75dip"
+                android:minWidth="75dip"
+                android:text="@string/dos" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxHeight="75dip"
+                android:maxWidth="75dip"
+                android:minHeight="75dip"
+                android:minWidth="75dip"
+                android:text="@string/tres" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxHeight="75dip"
+                android:maxWidth="75dip"
+                android:minHeight="75dip"
+                android:minWidth="75dip"
+                android:text="@string/cuatro" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxHeight="75dip"
+                android:maxWidth="75dip"
+                android:minHeight="75dip"
+                android:minWidth="75dip"
+                android:text="@string/cinco" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxHeight="75dip"
+                android:maxWidth="75dip"
+                android:minHeight="75dip"
+                android:minWidth="75dip"
+                android:text="@string/seis" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxHeight="75dip"
+                android:maxWidth="75dip"
+                android:minHeight="75dip"
+                android:minWidth="75dip"
+                android:text="@string/siete" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxHeight="75dip"
+                android:maxWidth="75dip"
+                android:minHeight="75dip"
+                android:minWidth="75dip"
+                android:text="@string/ocho" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxHeight="75dip"
+                android:maxWidth="75dip"
+                android:minHeight="75dip"
+                android:minWidth="75dip"
+                android:text="@string/nueve" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="225dp"
+                android:layout_height="wrap_content"
+                android:minWidth="66dp"
+                android:text="@string/cero" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.74"
+            android:text="No solucionamos el problema para este caso con LinearLayout; con pantallas grandes se verá muy pequeño el teclado, y si asignamos pesos a los layouts que contienen los operadores y los números también varía la distribución de vistas con el tamaño de pantalla sin mantener el mismo aspecto."
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="92dp"
+            android:minWidth="75dip"
+            android:text="@string/mas" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="92dp"
+            android:minWidth="75dp"
+            android:text="@string/igual" />
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="92dp"
+            android:minWidth="75dp"
+            android:text="@string/borrar" />
+    </LinearLayout>
+
+</LinearLayout>
