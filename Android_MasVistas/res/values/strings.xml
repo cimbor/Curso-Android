@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MasVistas</string>
+    <string name="menu_settings">Settings</string>
+    <color name="color_fondo">#FFFFFF</color>
+    <string name="hint_textfield_numero">Introduce un número</string>
+    <string name="cero">0</string>
+    <string name="hint_resultado">Resultado</string>
+    <color name="azul">#0000FF</color>
+
+</resources>
