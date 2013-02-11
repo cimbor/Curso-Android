@@ -12,7 +12,7 @@ import android.widget.Toast;
 
 public class MasVistasActivity extends Activity {
 	private EditText entrada;
-	private TextView salida;
+	private TextView salida; 
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
