@@ -7,7 +7,7 @@
     android:orientation="vertical"
     tools:context=".MasVistasActivity" >
 
-    <EditText
+    <EditText 
         android:id="@+id/entrada"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
