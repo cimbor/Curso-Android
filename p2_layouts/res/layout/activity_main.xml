@@ -1,0 +1,119 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/TableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxHeight="48dip"
+            android:maxWidth="48dip"
+            android:minHeight="48dip"
+            android:minWidth="48dip"
+            android:text="@string/uno" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxHeight="48dip"
+            android:maxWidth="48dip"
+            android:minHeight="48dip"
+            android:minWidth="48dip"
+            android:text="@string/dos" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxHeight="48dip"
+            android:maxWidth="48dip"
+            android:minHeight="48dip"
+            android:minWidth="48dip"
+            android:text="@string/tres" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxHeight="48dip"
+            android:maxWidth="48dip"
+            android:minHeight="48dip"
+            android:minWidth="48dip"
+            android:text="@string/cuatro" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxHeight="48dip"
+            android:maxWidth="48dip"
+            android:minHeight="48dip"
+            android:minWidth="48dip"
+            android:text="@string/cinco" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxHeight="48dip"
+            android:maxWidth="48dip"
+            android:minHeight="48dip"
+            android:minWidth="48dip"
+            android:text="@string/seis" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxHeight="48dip"
+            android:maxWidth="48dip"
+            android:minHeight="48dip"
+            android:minWidth="48dip"
+            android:text="@string/siete" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxHeight="48dip"
+            android:maxWidth="48dip"
+            android:minHeight="48dip"
+            android:minWidth="48dip"
+            android:text="@string/ocho" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxHeight="48dip"
+            android:maxWidth="48dip"
+            android:minHeight="48dip"
+            android:minWidth="48dip"
+            android:text="@string/nueve" />
+    </TableRow>
+
+</TableLayout>
